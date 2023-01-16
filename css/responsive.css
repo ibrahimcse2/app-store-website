@@ -1,0 +1,463 @@
+.navbar-toggler {
+    background-color: #fff;
+}
+@media (min-width :320px) and (max-width:575px) {
+    #navbar .list .dropdown_menu{
+        width: 100%;
+        background-color: rgb(0,0,0,0.9);
+    }
+    #navbar .list ul a::after {
+        height: 3px;
+    }
+    #navbar .list ul a {
+        padding: 15px 2px;
+    }
+    #navbar .list ul .flag {
+        padding: 15px 2px;
+    }
+    #navbar .list button {
+        background-color: rgb(0,0,0,0.5);
+        margin-bottom: 10px;
+        border-radius: 5px;
+    }
+    #banner .heading h3 {
+        font-size: 35px;
+    }
+    #banner .item{
+        flex-wrap: wrap;
+    }
+    .slick-slide img {
+        width: 100%;
+    }
+    #banner .item button{
+        width: 100%;
+        margin: 10px 0;
+    }
+    #banner .main{
+        flex-wrap: wrap;
+    }
+    #banner .main .item{
+        width: 100%;
+        margin: 10px 0;
+    }
+    #banner .main .itemOne {
+        width: 100%;
+    }
+    #banner .main .itemthree {
+        width: 100%;
+    }
+    #banner .main .item_child {
+        padding: 0;
+        margin: 10px 0
+    }
+    #banner .main .item_child h3 {
+        font-size: 18px;
+    }
+    #banner .main .item_child p {
+        font-size: 13px;
+        margin: 0;
+    }
+    #prospectus{
+        padding: 30px 0;
+    }
+    #prospectus .main{
+        flex-wrap: wrap;
+    }
+    #prospectus .main .item{
+        width: 100%;
+        margin: 5px 0;
+    }
+    #app_profile{
+        display: none;
+    }
+    #main .title h3{
+        font-size: 25px;
+    }
+    .mobile_box {
+        height: 610px;
+    }
+    #app_quality {
+        padding: 30px 0;
+    }
+    #app_quality .main{
+        flex-wrap: wrap;
+    }
+    #app_quality .main .item{
+        width: 100%;
+        margin: 10px 0;
+    }
+    #app_quality .newmobile {
+        height: 528px;
+        width: 18%;
+    }
+    #app_quality .mobile_box {
+        width: 82%;
+    }
+    #app_quality .details button {
+        font-size: 16px;
+    }
+    #app_quality .details p{
+        font-size: 13px;
+    }
+    #app_quality .detail {
+        padding: 10px;
+    }
+    #app_quality .details button i {
+        line-height: 0px;
+    }
+    #screenshot {
+        padding: 50px 0;
+    }
+    #devloper .head p {
+        font-size: 14px;
+        padding: 5px;
+    }
+    #owner{
+        padding: 50px 0;
+    }
+    #owner .item{
+        width: 100%;
+        margin: 10px 0;
+    }
+    #owner .main{
+        flex-wrap: wrap;
+    }
+    #shop .shop_top {
+        padding: 50px 0;
+    }
+    #shop .button{
+        flex-wrap: wrap;
+    }
+    #shop .button button {
+        margin: 5px 0 !important;
+        width: 100% !important;
+    }
+    #shop_products {
+        padding: 50px 0;
+    }
+    #shop_products .title p{
+        font-size: 14px;
+        margin-top: 20px;
+        padding: 10px;
+    }
+    #shop_products .main{
+        flex-wrap: wrap;
+    }
+    #shop_products .main .item{
+        width: 100% !important;
+        margin: 10px 0;
+    }
+    #shop_products .item .details a {
+        padding: 0px 0px 0px 50px;
+    }
+    #shop_products .item .details p {
+        margin: 5px 0;
+    }
+    #shop_products .item .details {
+        height: 170px;
+    }
+    #news .item .info{
+        width: 100% !important;
+    }
+    #news .item{
+        margin: 10px 0;
+    }
+    #news .item h3 {
+        font-size: 20px;
+        margin: 0 !important;
+    }
+    #news_banner {
+        padding: 50px 0;
+    }
+    #skills {
+        padding: 70px 0;
+    }
+    #skills_banner .main{
+        flex-wrap: wrap;
+    }
+    #skills_banner .item {
+        width: 100%;
+    }
+    #footer .main {
+        flex-wrap: wrap;
+    }
+    #footer .main .item{
+        width: 100%;
+        margin: 10px 0;
+    }
+    #footer_bottom .main .topButton {
+        top: -35px;
+    }
+    #footer .item p {
+        text-align: center !important;
+        margin: 5px 0;
+    }
+    #footer_bottom .icons{
+        justify-content: center !important;
+    }
+    #gallery .item {
+        margin: 0 !important;
+    }
+    #gallery .slick-next {
+        right: 0;
+    }#gallery .slick-prev {
+        left: 0;
+    }
+    
+}
+
+
+
+@media (min-width :575px) and (max-width:768px) {
+    #navbar .list ul a {
+        padding: 15px 2px;
+    }
+    #banner .heading h3 {
+        font-size: 45px;
+    }
+    #banner .main{
+        flex-wrap: wrap;
+        justify-content: start !important;
+    }
+    #banner .main .item {
+        display: block;
+        margin: auto;
+        width: 380px;
+    }
+    #banner .item_child{
+        flex-wrap: wrap;
+    }
+    #banner .item_child .left{
+        width: 100%;
+    }
+    #banner .main .item_child h3{
+        font-size: 18px;
+        text-align: center;
+    }
+    #banner .main .item_child p{
+        text-align: center;
+    }
+    #banner .main .item_child {
+        padding: 0px;
+    }
+    #banner .main .itemthree {
+        width: 100%;
+        display: flex;
+    }
+    #banner .main .itemOne {
+        display: flex;
+        width: 100%;
+    }
+    #banner {
+        padding: 60px 0;
+    }
+    #prospectus .item .details h3 {
+        font-size: 16px;
+    }
+    #prospectus .item .details p {
+        font-size: 13px;
+    }
+    #main .title h3 {
+        font-size: 45px;
+    }
+    #app_profile {
+        display: none;
+    }
+    #app_quality .main {
+        flex-wrap: wrap;
+    }
+    #app_quality .item {
+        width: 100%;
+        margin: 15px 0;
+    }
+    #app_quality .detail {
+        padding: 8px;
+    }
+    #app_quality .details button {
+        font-size: 17px;
+    }
+    #app_quality .details button i{
+        font-size: 16px;
+    }
+    #devloper {
+        padding: 40px 0;
+    }
+    #devloper .head p {
+        font-size: 18px;
+    }
+    #owner {
+        padding: 50px 0;
+    }
+    #owner .main{
+        flex-wrap: wrap;
+    }
+    #owner .item {
+        width: 50%;
+        margin: 15px 0;
+    }
+    #shop .shop_top {
+        padding: 80px 0;
+    }
+    #shop_products {
+        padding: 80px 0;
+    }
+    #shop_products .main{
+        justify-content: space-between;
+    }
+    #shop_products .item {
+        width: 48%;
+        margin: 10px 0;
+    }
+    #news .item .info{
+        width: 100% !important;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+    #news .item h3 {
+        font-size: 20px;
+        margin-top: 5px !important;
+    }
+    #news_banner {
+        padding: 50px 0;
+    }
+    #gallery {
+        padding: 60px 0;
+    }
+    #skills_banner {
+        padding: 50px 0;
+    }
+    #skills_banner .item{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    #skills_banner .item .icons{
+        display: block;
+        margin: auto;
+    }
+    #skills_banner .item .detail{
+        width: 100%;
+        margin-left: 10px !important;
+        margin-top: 15px;
+    }
+    #skills_banner .item .detail h3{
+        font-size: 18px;
+        text-align: center;
+    }
+    #skills_banner .item .button{
+        display: block;
+        margin: auto;
+    }
+    #skills_banner .main{
+        flex-wrap: wrap;
+    }
+    #footer .main{
+        flex-wrap: wrap;
+    }
+    #footer .main .item{
+        width: 48%;
+        margin: 10px 0;
+    }
+    #footer_bottom .main .item{
+        width: 60%;
+    }
+    #footer_bottom .main .icons {
+        width: 40% !important;
+    }
+    #skills_banner .item p {
+        text-align: center;
+    }
+    
+    #navbar .list ul .flag {
+        padding: 15px 2px;
+    }
+    #banner .main .item_child .right {
+        margin-top: 12px;
+        margin-left: 0px;
+    }
+}
+@media (min-width :768px) and (max-width:992px){
+    #navbar .list ul a {
+        padding: 15px 2px;
+    }
+    #navbar .list ul .flag {
+        padding: 15px 2px;
+    }
+    #banner .main .item_child h3 {
+        font-size: 18px;
+        text-align: center;
+    }
+    #banner .main .itemOne {
+        width: 25% !important;
+    }
+    #banner .main .itemthree {
+        width: 28% !important;
+    }
+    #banner .main .item{
+        width: 47% !important;
+    }
+    #banner .main .item_child{
+        flex-wrap: wrap;
+        padding: 0;
+        margin: 5px 0;
+    }
+    #banner .main .item_child .left{
+        width: 100%;
+    }
+    #app_profile {
+    display: none;
+    }
+    #main .title h3 {
+        font-size: 45px;
+    }
+    #app_quality .details button {
+        font-size: 16px;
+    }
+    #app_quality .detail {
+        padding: 8px;
+    }
+    #app_quality .item {
+        width: 45%;
+    }
+    #app_quality .justify-content-end{
+        width: 55% !important;
+    }
+    #app_quality .mobile_box {
+        width: 75%;
+    }
+    #devloper {
+        padding: 50px;
+    }
+    #shop_products .main{
+        flex-wrap: wrap;
+    }
+    #shop_products .item {
+        width: 25% !important;
+    }
+    #news .info{
+        width: 100% !important;
+        margin-top: 10px;
+    }
+    #skills_banner .main{
+        flex-wrap: wrap;
+    }
+    #skills_banner .button{
+        width: 100%;
+    }
+    #skills_banner button {
+        padding: 18px 40px !important;
+    }
+    #footer .main{
+        flex-wrap: wrap;
+    }
+    #footer .main .item{
+        width: 45%;
+        margin-top: 10px;
+    }
+    #footer_bottom .main .item {
+        width: 60%;
+    }
+    #footer_bottom .main .icons {
+        width: 40% !important;
+    }
+
+}

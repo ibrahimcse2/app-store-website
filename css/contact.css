@@ -1,0 +1,138 @@
+/* common css start */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #eeeeee;
+  font-family: "Oswald", sans-serif;
+  color: #666;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  display: inline;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+p,
+ul,
+a {
+  margin: 0;
+  padding: 0;
+}
+/* common css end  */
+/* contact start  */
+.main_contact {
+  margin: 40px 0;
+}
+.contact_header h2 {
+  font-size: 24px;
+  font-weight: 400;
+  color: #444;
+  position: relative;
+}
+.contact_header h2::before {
+  content: "";
+  top: 35px;
+  position: absolute;
+  border-bottom: double 4px;
+  width: 11%;
+}
+.contact_box {
+  margin: 40px 0;
+}
+.box {
+  padding-top: 40px;
+}
+.box .icon {
+  border: double #c8385e 4px;
+  height: 78px;
+  width: 78px;
+  transform: rotate(45deg);
+  margin: 10px;
+  color: #c8385e;
+  text-align: center;
+  line-height: 75px;
+}
+.box .icon .cus-fa {
+  font-size: 25px;
+  transform: rotate(-45deg);
+}
+.box .text h3 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #444;
+}
+.box .text {
+  margin: 10px 0px 0px 30px;
+}
+.box .text p {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  color: #444;
+}
+.right_contact .header_text {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  color: #444;
+  margin: 40px 0;
+}
+.right_contact .name {
+  margin-bottom: 20px;
+}
+.right_contact .name p {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 10px;
+}
+.right_contact .name form .cus-nform {
+  border: none;
+  border-radius: 1px;
+  transition: 0.4s;
+}
+.right_contact .name form .cus-nform:focus {
+  border: solid 1px #c8385e;
+  box-shadow: none;
+  outline: none;
+  color: #666;
+}
+.right_contact .message p {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 10px;
+}
+.right_contact .message textarea {
+  width: 100%;
+  border: none;
+  border-radius: 1px;
+  transition: 0.4s;
+}
+.right_contact .message textarea:focus {
+  border: solid 1px #c8385e;
+  box-shadow: none;
+  outline: none;
+  color: #666;
+}
+.right_contact .right_btn {
+  margin: 20px 0;
+}
+
+.right_contact button {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  color: #fff;
+  padding: 12px 20px;
+  background-color: #c8385e;
+  border-radius: 0;
+}
+/* contact end  */

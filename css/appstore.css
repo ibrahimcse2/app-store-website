@@ -1,0 +1,1127 @@
+/* ==============
+app_store css start 
+============*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+}
+.conatiner{
+    width: 1320px;
+    margin: 0 auto;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+    background-color: #eeeeee;
+}
+/* common css done */
+
+/* ============ 
+section 2 
+==========*/
+
+.banner{
+    height: 100vh;
+    max-height: 100vh;
+    min-height: 100vh;
+}
+.banner .carousel-inner img{
+    width: 100%;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.post-overlay{
+    top: 70%;
+    left: 20%;
+    position: absolute;
+    display: flex;
+    margin: 4px;
+    height: 100px;
+    padding: 8px;
+    background-color: rgba(248, 248, 248, 0.5);
+    backdrop-filter: blur(5px);
+    width: 28%;
+    
+}
+
+
+  
+ 
+
+.post-overlay .ico img{
+    position: absolute;
+    top: -20%;
+    left: 4%;
+    height: 100px;
+    width: 100px;
+}
+
+
+
+.post-overlay .cit{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    margin-left: 32%;
+    word-wrap: none;
+}
+.overlay {
+    position: absolute; 
+    bottom: 0; 
+    top: 0;
+    border: none;
+    outline: none;
+    width: 10%;
+    transition: .5s ease;
+    opacity:0 !important;
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+    padding: 20px;
+    margin-left: 2px;
+    margin-right: 2px;
+    text-align: center;
+    background-color: rgba(248, 248, 248, 0.329);
+    backdrop-filter: blur(5px);
+  }
+  .overlay.left{
+    right: 80%;
+  }
+  .post-overlay:hover .overlay.left {
+    opacity: 1 !important;
+    right: 100%;
+  }
+  .overlay.right{
+    right: 80%;
+  }
+  .post-overlay:hover .overlay.right {
+    opacity: 1 !important;
+    left: 100%;
+  }
+
+
+
+/* ==========
+section2 css 
+==========*/
+#app_store .section2{
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+#app_store .colum_inner h2{
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 400;
+    color: #444;
+    margin-left: 10px;
+    position: relative;
+}
+#app_store .colum_inner h2::after{
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0px;
+    height: 1px;
+    width: 82px;
+    background-color: black;
+}
+#app_store .colum_inner h2::before{
+    content: '';
+    position: absolute;
+    bottom: -13px;
+    left: 0px;
+    height: 1px;
+    width: 82px;
+    max-width: 90%;
+    background-color: black;
+}
+#app_store .colum_inner ul  {
+    border: none !important;
+}
+#app_store .colum_inner ul li{
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #343434;
+    transition: color .2s;
+}
+#app_store .colum_inner ul li:hover{
+    color: #A9CA6E;
+    cursor: pointer;
+}
+#app_store .colum_inner ul li i{
+    font-size: 6px;
+    padding-right: 5px;
+    margin-left: -14px;
+}
+#app_store .Last_app h2{
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 400;
+    color: #444;
+    margin-left: 10px;
+    position: relative;
+}
+#app_store .Last_app h2::after{
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0px;
+    height: 1px;
+    width: 82px;
+    max-width: 90%;
+    background-color: black;
+}
+#app_store .Last_app h2::before{
+    content: '';
+    position: absolute;
+    bottom: -13px;
+    left: 0px;
+    height: 1px;
+    width: 82px;
+    max-width: 90%;
+    background-color: black;
+}
+#app_store .colum_right img{
+    width: 175px;
+    margin: auto;
+    padding-top: 15px;
+}
+#app_store .colum_right .card{
+   
+    background-color: #fff;
+    border-radius: 0px !important;
+    padding: 0 !important;
+}
+#app_store .colum_right .card_text{
+    margin-top: 10px;
+    padding-left: 25px;
+}
+
+#app_store .colum_right .card_text .icons{
+    padding-left: 5px;
+}
+
+
+#app_store .colum_right .card_text p{
+    transition: .3s;
+    
+    padding-top: 15px;
+}
+#app_store .colum_right .card_text p:hover{
+    color: #77a464;
+    cursor: pointer;
+}
+#app_store .colum_right .card_s_text{
+    margin-top: 50px;
+    padding-left: 25px;
+}
+#app_store .colum_right .card_s_text p{
+    transition: .3s;
+}
+#app_store .colum_right .card_s_text p:hover{
+    color: #77a464;
+    cursor: pointer;
+}
+
+#app_store .icons a{
+    font-size: 12px;
+    margin-left: -6px;
+    color: #A9CA6E;
+}
+#app_store .colum_right p{
+    font-family: inherit;
+    margin-top: -15px;
+    margin-bottom: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #343434;
+}
+#app_store .colum_right .dollar{
+    font-size: 14px;
+    color: #77a464;
+    font-weight: 400;
+}
+#app_store .colum_right  span{
+    font-family: 'FontAwesome';
+    font-size: 9px;
+    color: #77a464;
+}
+#app_store .colum_right .button{
+    margin-top: 16px;
+    font-weight: normal;
+    transition: all .2s;
+    display: block;
+    text-align: center;
+    background-color: transparent;
+    border-top: solid 1px rgba(51,51,51,.05);
+    color: #888;
+    padding: 8px 0;
+
+}
+#app_store .button a{
+    font-size: 15px;
+    color: #888;
+}
+#app_store .colum_right .button:hover{
+    background-color: #A9CA6E;
+    color: #fff;
+    cursor: pointer;
+}
+#app_store .colum_right .button a:hover{
+    color: #fff;
+}
+/* =========
+section 3
+============ */
+#app_store .section_3{
+    background: url(../images/topsemtembar.jpg)center;
+    background: cover;
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+    margin-bottom: 100px;
+}
+#app_store .section3_h2 h2{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    border-top: double 4px;
+    border-bottom: double 4px;
+    display: inline-block;
+    margin-left: 455px;
+    font-family: "Oswald", Times, serif;
+    font-weight: 100;
+    font-size: 60px;
+    color: #fff;
+    margin-top: 100px;
+}
+#app_store .section_3 .main{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+#app_store .section_3 .main .item{
+    width: 20%;
+    color: #FFCD3C;
+    padding-top: 30px;   
+    position: relative;
+    z-index: 0;
+}
+#app_store .section_3 .main .item img{
+    position: relative;
+    width: 240px;   
+}
+/* =====overlay option */
+#app_store .section_3 .main .item .ima_overlay {
+    position: absolute;
+    margin-top: -54%;
+    left: 40px;
+    -webkit-transform: translateY(-60px) scale(1.5);
+    transform: translateY(-60px) scale(1.5);
+    transition: all .45s;
+    width: 160px;
+    height: 161px;
+    line-height: 38px;
+    text-align: center;
+    background-color: rgb(175,192,121,0.6);
+    opacity: 0;
+}
+#app_store .section_3 .main .item .ima_overlay:hover{
+        font-size: 15px;
+         opacity: 1;
+}
+#app_store .section_3 .main .item .ima_overlay .overlay_box{
+    margin-top: 35%;
+    margin-left: 40%;
+    -webkit-transform: translateY(-60px) scale(1.5);
+    transform: translateY(-60px) scale(1.5);
+    transition: all .45s;
+    font-size: 20px;
+    border: solid 1px;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    -webkit-transform: rotate(45deg);
+    text-align: center;
+    z-index: 1;
+}
+#app_store .section_3 .main .item .ima_overlay i{
+    color: #fff;
+}
+#app_store .section_3 .main .item .mini_card img{
+    position: absolute;
+    width: 60px; 
+    bottom: 120px;
+    left: 15px;
+    border-radius: 5px;
+    z-index: 1;
+}
+#app_store .section_3 .main .item .card_text{
+    background-color: #fff;
+    width: 240px;
+}
+#app_store .section_3 .main .item .icons ul{
+    display: flex;
+    margin-left: 85px;
+}
+#app_store .section_3 .main .item .icons ul li{
+    padding-left: 6px;
+}
+#app_store .section_3 .main .item .card_text p{
+    font-size: 16px;
+    font-weight: 400;
+    width: max-content;
+    padding-left: 17px;
+    color: #343434;
+}
+#app_store .section_3 .main .item .card_text .prize{
+    padding-left: 17px;
+    line-height: 0px;
+    color: #77a464;
+    padding-bottom: 20px;
+}
+#app_store .section_3 .main .item .card_text .dollar{
+    font-size: 14px;
+    color: #77a464;
+    font-weight: 400;
+}
+#app_store .section_3 .main .item .card_text  span{
+    font-family: 'FontAwesome';
+    font-size: 9px;
+    color: #77a464;
+}
+#app_store .section_3 .main .item .button{
+    margin-top: 16px;
+    font-weight: normal;
+    transition: all .2s;
+    display: block;
+    text-align: center;
+    background-color: transparent;
+    border-top: solid 1px rgba(51,51,51,.05);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;  
+}
+#app_store .section_3 .main .item .button:hover{
+    background-color: #77a464;    
+}
+#app_store .section_3 .main .item .button a:hover{
+    color: #fff;
+}
+#app_store .section_3 .main .item .padding{
+    padding-top: 40px;
+}
+/* ==============
+app_store css end 
+============*/
+#recmmends_apps{
+    margin: 20px;
+    padding: 30px;
+}
+#recmmends_apps .tittle h2{
+    position: relative;
+    margin-bottom: 30px;
+    margin-top: 0;
+    line-height: 1.25;
+    font-weight: 600;
+    color: #444;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+#recmmends_apps .tittle h2:before {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0px;
+    width: 60px;
+    max-width: 90%;
+   
+}
+
+#recmmends_apps .tittle h2:before {
+    height: 0;
+    background-color: transparent !important;
+    border-top: double 4px;
+}
+#recmmends_apps .col-lg-2{
+    margin: -4px -1% 38px 0%
+}
+#recmmends_apps .card img{
+    padding: 20px;
+
+}
+#recmmends_apps .card img:hover{
+    opacity: .75;
+}
+#recmmends_apps .card-body .text{
+    padding: 20px 15px 10px;
+    position: relative;  
+    padding-bottom: 30px;   
+}
+
+
+#recmmends_apps .card-body .text .main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+
+}
+#recmmends_apps .card-body .text .product-title {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    line-height: 1.25;
+    font-weight: 400;
+   
+}
+#recmmends_apps .card-body .text .product-title:hover {
+color: #77a464;
+}
+.fa-shopping-cart:before {
+    content: "\f07a";
+}
+#recmmends_apps .card-body .text .icons {
+    color: #77a464;
+    font-size: 10px;
+}
+
+#recmmends_apps .card-body .text .price{
+    color: #77a464;
+    font-size: 15px;
+}
+#recmmends_apps .card-body .button {
+    text-align: center;
+    display: block;
+    background-color: transparent;
+    border-top: solid 1px rgba(51,51,51,.05);
+    color: #888;
+    font-weight: normal;
+    transition: all .2s;
+    box-shadow: none;
+    padding: 3px;
+    
+}
+
+#recmmends_apps .card-body .button:hover {
+ background-color: #77a464;
+ color: #fff;   
+}
+
+#recmmends_apps .dropdown-menu{
+    padding: 0.25rem 2.5rem;
+}
+#recmmends_apps .dropdown-menu :hover{
+    background-color: #fff;
+}
+
+#recmmends_apps .wpb_wrapper p{
+    text-align: center;
+}
+#recmmends_apps .wpb_wrapper {
+    
+        margin-bottom: 35px;
+}
+#recmmends_apps .wpb_text_column .btn{
+        margin-top: 10px;
+        
+}
+#recmmends_apps .wpb_text_column .btn{
+       background: #77a464;
+       border-color:#77a464;
+       color: #fff;
+        
+}
+
+#recmmends_apps .wpb_text_column .btn:hover {
+    color: #fff;
+    background-color: #666666;
+    border-color: #666666;
+}
+
+/* recmmends_apps end */
+
+
+/* staff start */
+
+
+#staff .main{
+    padding-bottom: 50px;
+}
+#staff .bg_img{
+    margin-bottom: 0px ;
+    padding-top: 35px ;
+    padding-bottom: 58px ;
+    background: url(../imgs/777-1013alfy-swatch4.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: repeat !important;
+    background-position: 50% 31.396875px !important;
+    transition: none;
+}
+#staff .main{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    margin-top: 30px;
+
+}
+#staff .card{
+    width: 18rem;  
+}
+
+#staff .text h2{
+    text-align: center;
+    color: #fff;
+    position: relative;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+}
+#staff .text h2:before {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    width: 60px;
+    max-width: 90%;
+    height: 0;
+    left: 617px;
+    background-color: transparent !important;
+    border-top: double 4px
+}
+#staff img {
+    max-width: 100%;
+    height: auto;
+}
+#staff .grip-app-icon {
+    width: 60px;
+    margin-right: 15px;
+    margin-top: -25px;
+    float: left;
+}
+#staff .grid-item {
+ 
+    width: 300px;
+    max-width: 100%;
+    display: inline-block;
+    font-size: 13px;
+    line-height: 1.5;
+    text-align: left;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+.grid-item-inner {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-top: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.overlay-top {
+    display: block;
+    padding: 12px 28px 15px 20px;
+    position: relative;
+}
+
+ .overlay-top h4 {
+    margin-bottom: 0px;
+    color: #fff;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding-bottom: 12px;
+    font-family: "Oswald", Times, serif;
+}
+.overlay-top h4:before {
+    content: '';
+    position: absolute;
+    bottom: 20px;
+    left: 98px;
+    height: 3px;
+    width: 40px;
+    max-width: 90%;
+    background-color: #eee;
+    background-color: rgba(255,255,255,.8);
+    transition: all .2s ease;
+}
+.overlay-top h4:before {
+    height: 0;
+    background-color: transparent !important;
+    border-top: double 4px;
+    width: 60px;
+}
+.overlay-bottom .price {
+    font-size: 14px;
+}
+#staff .overlay-bottom{
+    height: 0;
+    padding: 0 20px;
+    overflow: hidden;
+    transition: all .25s ease-out .1s;
+}
+.app-item .app-thumbnail img{
+    position: relative;
+}
+
+.grid-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: rgba(255,255,255,.75);
+    background: rgba(34,34,34,.8);
+
+   
+}
+.grid-overlay :hover {
+  opacity: 1;
+}
+.clearfix:before{
+    content: " ";
+    display: table;
+}
+.clearfix::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.grid-has-icon .overlay-top:after {
+    display: none;
+}
+.app-item:hover .overlay-bottom {
+    height: 50px;
+    padding: 2px 20px 18px;
+    transition: all .25s ease-out;
+}
+
+/* staff end */
+
+
+/* top_games start */
+
+#top_games{
+    background-color: #fff;
+}
+
+#top_games .main{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    margin-top: 30px;
+
+}
+
+#top_games .text_h1{
+ 
+    font-family: "Oswald", Times, serif;
+    font-weight: 100;
+    font-size: 60px;
+    margin-top: 0;
+    line-height: 1.25;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    text-align: center!important;
+    position: relative;
+}
+
+#top_games h2:before {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    width: 23rem;
+    max-width: 245%;
+    height: 0;
+    left: 464px;
+    background-color: transparent !important;
+    border-top: double 4px;
+}
+#top_games h2::after {
+    content: '';
+    position: absolute;
+    top: -8px;
+    width: 23rem;
+    max-width: 245%;
+    height: 0;
+    left: 464px;
+    background-color: transparent !important;
+    border-top: double 4px;
+}
+#top_games .card{
+    width: 41rem;
+    height: 20.5rem;
+}
+#top_games .card1 {
+    width: 100%;
+    height: 20.5rem;
+}
+#top_games .card2{
+    width: 100%;
+    height: 20.5rem;
+}
+
+
+
+#top_games .grip-app-icon {
+    width: 60px;
+    margin-right: 15px;
+    margin-top: -25px;
+    float: left;
+}
+#top_games .grid-item {
+ 
+    width: 300px;
+    max-width: 100%;
+    display: inline-block;
+    font-size: 13px;
+    line-height: 1.5;
+    text-align: left;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+.grid-item-inner {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-top: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.grid-item {
+    width: 300px;
+    max-width: 100%;
+    display: inline-block;
+    font-size: 13px;
+    line-height: 1.5;
+    text-align: left;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+.overlay-top {
+    display: block;
+    padding: 12px 28px 15px 20px;
+    position: relative;
+}
+#top_games .overlay-top h4 {
+    margin-bottom: 0px;
+    color: #fff;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding-bottom: 12px;
+    position: relative;
+    font-family: "Oswald", Times, serif;
+    font-size: 15px;
+}
+#top_games .overlay-top h4:before {
+    content: '';
+    position: absolute;
+    bottom: 2px;
+    left: 0px;
+    height: 3px;
+    width: 40px;
+    max-width: 90%;
+    background-color: #eee;
+    background-color: rgba(255,255,255,.8);
+    transition: all .2s ease;
+}
+.overlay-top h4:before {
+    height: 0;
+    background-color: transparent !important;
+    border-top: double 4px;
+    width: 60px;
+}
+.overlay-bottom .price {
+    font-size: 14px;
+}
+#top_games .overlay-bottom{
+    height: 0;
+    padding: 0 20px;
+    overflow: hidden;
+    transition: all .25s ease-out .1s;
+}
+.app-item .app-thumbnail img{
+    position: relative;
+}
+
+.grid-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: rgba(255,255,255,.75);
+    background: rgba(34,34,34,.8);
+
+   
+}
+.grid-overlay :hover {
+  opacity: 1;
+}
+.clearfix:before{
+    content: " ";
+    display: table;
+}
+.clearfix::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.grid-has-icon .overlay-top:after {
+    display: none;
+}
+.app-item:hover .overlay-bottom {
+    height: 50px;
+    padding: 2px 20px 18px;
+    transition: all .25s ease-out;
+}
+
+/* top_games end */
+
+/* browse start */
+#browse{
+    background-color: #eeee;
+    padding: 30px 30px 0;
+}
+/* browse end */
+#browse .btn{
+    background: #77a464;
+    border: #77a464;
+    color: #0b0b0b;
+    font-size: 20px;
+    padding: 15px 20px;
+    color: #fff;
+
+}
+#browse .btn:hover{
+    background: rgb(110, 109, 109);
+    border: rgb(84, 83, 83);
+    color: #fff;
+
+}
+/*********footer*******************/
+.kilimanjaro_area {
+    position: relative;
+    z-index: 1;
+	}
+	.foo_top_header_one {
+    background-color: #15151e;
+    color: #fff;
+}
+.section_padding_100_70 {
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+.foo_top_header_one {
+    color: #fff;
+}.kilimanjaro_part {
+    margin-bottom: 30px;
+}
+.foo_top_header_one .kilimanjaro_part > h5 {
+    color: #fff;
+}
+.kilimanjaro_part h4, .kilimanjaro_part h5 {
+    margin-bottom: 30px;
+}
+.kilimanjaro_single_contact_info > p, .kilimanjaro_single_contact_info > h5, .kilimanjaro_blog_area > a, .foo_top_header_one .kilimanjaro_part > p {
+    color: rgba(255,255,255,.5);
+}
+p, ul li, ol li {
+    font-weight: 300;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+.kilimanjaro_bottom_header_one {
+    background-color: #111;
+}
+.section_padding_50 {
+    padding: 50px 0;
+}
+.kilimanjaro_bottom_header_one p {
+    color: #fff;
+    margin: 0;
+}
+p, ul li, ol li {
+    font-weight: 300;
+}
+.kilimanjaro_bottom_header_one a {
+    color: inherit;
+    font-size: 14px;
+}
+a, h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+}
+.m-top-15 {
+    margin-top: 15px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.kilimanjaro_widget > li {
+    display: inline-block;
+}
+p, ul li, ol li {
+    font-weight: 300;
+}
+ol li, ul li {
+    list-style: outside none none;
+}
+.kilimanjaro_widget a {
+    border: 1px solid #333;
+    border-radius: 6px;
+    color: #888;
+    display: inline-block;
+    font-size: 13px;
+    margin-bottom: 4px;
+    padding: 7px 12px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+.kilimanjaro_links a {
+    border-bottom: 1px solid #333;
+    color: rgba(255,255,255,.5);
+    display: block;
+    font-size: 13px;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+}
+.kilimanjaro_links a {
+    color: rgba(255,255,255,.5);
+    font-size: 13px;
+}
+top-15 {
+    margin-top: 15px;
+}
+.foo_top_header_one .kilimanjaro_part > h5 {
+    color: #fff;
+}
+.kilimanjaro_part h4, .kilimanjaro_part h5 {
+    margin-bottom: 30px;
+}
+.kilimanjaro_social_links > li {
+    display: inline-block;
+}
+p, ul li, ol li {
+    font-weight: 300;
+}
+.kilimanjaro_social_links a {
+    border: 1px solid #333;
+    border-radius: 6px;
+    color: #888;
+    display: inline-block;
+    font-size: 13px;
+    margin-bottom: 3px;
+    padding: 7px 12px;
+}
+.kilimanjaro_blog_area .kilimanjaro_date {
+    color: #27ae60;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+.kilimanjaro_blog_area > p {
+    color: rgba(255,255,255,.5);
+    line-height: 1.3;
+    margin-bottom: 0;
+}
+.kilimanjaro_works > a{
+    display: inline-block;
+    position: relative;
+    width: 33.33333333%;
+    z-index: 1;
+}
+.kilimanjaro_thumb {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 75px;
+}
+.kilimanjaro_links a i {
+    padding-right: 10px;
+}
+  /* :: 18.0 Footer Area CSS */
+
+    .footer_area {
+        position: relative;
+        z-index: 1;
+    }
+ .footer_bottom p > i,
+    .footer_bottom p > a:hover {
+        color: #27ae60;
+    }	
+
+    .social_links_area {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        padding: 50px 0 30px 0;
+        text-align: center;
+        position: relative;
+        z-index: 1;
+    }
+ .social_links_area > a:hover {
+        color: #27ae60;
+    }
+
+    .inline-style .social_links_area > a:hover {
+        background-color: transparent;
+        color: #27ae60;
+        border: 0px solid transparent;
+    }
+ .single_feature:hover .feature_text h4 {
+        color: #27ae60;
+    }
+.kilimanjaro_blog_area {
+    border-bottom: 1px solid #333;
+    margin-bottom: 15px;
+    padding: 0 0 15px 90px;
+    position: relative;
+    z-index: 1;
+}
+.kilimanjaro_links a {
+    border-bottom: 1px solid #333;
+    color: rgba(255,255,255,.5);
+    display: block;
+    font-size: 13px;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+}
+#appstore #shop .shop_top {
+    display: none;
+    padding: 0;
+}
+#appstore #shop_products {
+    padding: 0;
+}
+#appstore #shop .title h3{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+#staff .text h2 {
+    color: #222222;
+    font-size: 35px;
+    font-weight: 600;
+}

@@ -1,0 +1,114 @@
+#features #banner{
+    background-image: url(../images/bgimg3.jpg);
+    padding: 80px  0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#features #banner ul li:first-child{
+    font-size: 65px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 1.5;
+    padding: 5px 0;
+    position: relative;
+}
+#features #banner ul li:first-child::after {
+    content: '';
+    height: 6px;
+    width: 175px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-bottom: 2px solid #fff;
+    border-top: 2px solid #fff;
+}
+#features #banner ul li:last-child {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+#features #banner ul li:last-child i{
+    font-size: 12px;
+}
+#features #banner ul li:last-child a{
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 5px;
+    transition: .4s;
+    font-weight: 300;
+}
+#features #banner ul li:last-child a:hover{
+    color: #C8385E;
+}
+#features #main{
+    padding: 20px 0;
+    background-color: #EEEEEE;
+}
+
+#features #main .categories h3{
+    margin: 10px 0;
+    text-align: center;
+    font-size: 22px;
+    position: relative;
+}
+#features #main .categories h3::after{
+    content: '';
+    height: 4px;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: -10px;
+    border-top: 2px solid #6a6767;
+    border-bottom: 2px solid #6a6767;
+}
+#features #main .categories ul li a{
+    font-size: 14px;
+    color: #222222;
+    text-decoration: none;
+    font-weight: 400;
+    transition: .4s;
+}
+#features #main .categories ul li a:hover{
+    color: #C8385E;
+}
+#features #main .categories ul li i{
+    font-size: 14px;
+    color: #222222;
+    margin: 0 5px;
+}
+#features .feutures_title h3{
+    font-size: 25px;
+    margin: 30px 0;
+    font-weight: 500;
+    color: #222222;
+    text-transform: uppercase;
+    line-height: 1.5;
+    position: relative;
+}
+#features .feutures_title h3::after{
+    content: '';
+    height: 4px;
+    width: 120px;
+    border-top: 2px solid #222222;
+    border-bottom: 2px solid #222222;
+    left: 0;
+    bottom: -10px;
+    position: absolute;
+}
+#features .detail p{
+    font-size: 14px;
+    margin-bottom: 0;
+    color: #222222;
+    font-weight: 400;
+}
+#features .detail ul li{
+    list-style: square;
+    font-size: 14px;
+    color: #222222;
+    font-weight: 400;
+}

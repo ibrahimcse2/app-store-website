@@ -1,0 +1,1197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WellCome | AppStore</title>
+    <!--======extra ====== -->
+    <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <!-- css link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/home.css">
+  <link rel="stylesheet" href="../css/appstore.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+  <link rel="stylesheet" href="../css/appstoreresponsive.css">
+</head>
+<body id="appstore">
+   <!-- navbar start -->
+   <section id="navbar" >
+    <nav class="navbar navbar-expand-lg p-0" id="navItem">
+        <div class="container">
+          <a class="navbar-brand" href="../home.html" >
+            <img src="../images/web-logo-2.png" alt="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse list" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="../home.html">Home
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="appStore.html">App Store
+                </a>
+                <ul class="dropdown_menu">
+                  <li><a href="#">Vendor shop</a></li>
+                  <li><a href="#">shop <i class="fa-solid fa-angle-right"></i></a>
+                    <ul class="sub_dropdown">
+                      <li><a href="#">Cart</a></li>
+                      <li><a href="#">Checkout</a></li>
+                      <li><a href="#">My Account</a></li>
+                    </ul>
+                  </li>
+              </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="features.html">features
+                </a>
+                <ul class="dropdown_menu">
+                  <li><a href="#">Showcase shortcode <i class="fa-solid fa-angle-right"></i></a>
+                    <ul class="sub_dropdown">
+                      <li><a href="#">Showcase Styles</a></li>
+                      <li><a href="#">Devides</a></li>
+                      <li><a href="#">Showcase Custom content</a></li>
+                    </ul>
+                  
+                  </li>
+                  <li><a href="#">content shortcode <i class="fa-solid fa-angle-right"></i></a>
+                    <ul class="sub_dropdown">
+                      <li><a href="#">heading shortcode</a></li>
+                      <li><a href="#">button shortcode</a></li>
+                      <li><a href="#">icon box</a></li>
+                      <li><a href="#">tabs + tour</a></li>
+                      <li><a href="#">Acooording + toogle</a></li>
+                      <li><a href="#">Countdown shortcode</a></li>
+                      <li><a href="#">testimonial shortcode</a></li>
+                      <li><a href="#">member shortcode</a></li>
+                      <li><a href="#">pricing table</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">query shortcode <i class="fa-solid fa-angle-right"></i></a>
+                    <ul class="sub_dropdown">
+                      <li><a href="#">post slider shortcode</a></li>
+                      <li><a href="#">post grid shortcode</a></li>
+                      <li><a href="#">post carousal shortcode</a></li>
+                      <li><a href="#">blog shortcode</a></li>
+                      <li><a href="#">product listing shortcode</a></li>
+                      <li><a href="#">quick ajax shortcode</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">404 page</a></li>
+                  <li><a href="#">user submit app</a></li>
+                  <li><a href="#">BBpress press forums</a></li>
+                  <li><a href="#">multi vendors</a></li>
+              </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="blog.html">Blog
+                </a>
+                <ul class="dropdown_menu">
+                  <li><a href="#">Blog custom header</a></li>
+              </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="contact.html">Contact Us
+                </a>
+                <ul class="dropdown_menu lastchild">
+                  <li><a href="#"><i class="fa-regular fa-comment"></i> ask before buy</a></li>
+                  <li><a href="#"><i class="fa-solid fa-circle-question"></i> document</a></li>
+                  <li><a href="#"><i class="fa-solid fa-download"></i> Buy theme</a></li>
+              </ul>
+              </li>
+              <li class="nav-item d-flex align-items-center dropdown">
+                <a class="nav-link flag" href="logIn.html" onclick="logOut()">
+                  Log In
+                  <span></span>
+                </a>
+              </li>
+              <button onclick="searchPopUpFun()"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </ul>
+          </div>
+        </div>
+      </nav>
+</section>
+<!-- navbar end -->
+    <!-- ====================
+        app store start
+    ======================== -->
+
+    <!-- section 1 -->
+    <section id="app_store">
+     <div class="banner">         
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="true">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active btn_change"  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="btn_change" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="btn_change" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" class="btn_change" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" class="btn_change" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" class="btn_change" aria-label="Slide 6"></button>
+              </div>
+
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="../images/app_banner.jpg" alt="">
+              
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../images/app_banner1.jpg" alt="">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../images/app_banner2.jpg" alt="">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../images/app_banner3.jpg" alt="">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../images/app_banner4.jpg" alt="">
+                  </div>
+
+                </div>
+                <div class="post-overlay">
+                  
+                    <div class="ico">
+                        <img src="../images/sep_minicard.png" alt="">
+                    </div>
+                    <div class="ico">
+                      <img src="../images/sep_minicard2.png" alt="">
+                  </div>
+                  <div class="ico">
+                    <img src="../images/sep_minicard3.png" alt="">
+                </div>
+                <div class="ico">
+                  <img src="../images/sep_minicard5.png" alt="">
+              </div>
+              <div class="ico">
+                <img src="../images/sep_minicard.png" alt="">
+            
+          </div>
+                    <div class="cit">
+                        <h2>Write Code</h2>
+                        <p>$5.80</p>
+                        <button class="overlay right carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">&gt;</button>
+                        <button class="overlay left carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">&lt;</button>
+                    </div>
+                </div>
+              </div>
+              </div>
+
+      <!--=========== section 2 ==========-->
+
+      <div class="section2">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="colum_inner">
+              <h2>Categories</h2>
+              <ul class="list-group border rounded px-2 list-group-flush">
+                <li class="list-group-item"><i class="fa-solid fa-angle-right"></i>Educational</li>
+                <li class="list-group-item"><i class="fa-solid fa-angle-right"></i>Games</li>
+                <li class="list-group-item"><i class="fa-solid fa-angle-right"></i>Media</li>
+                <li class="list-group-item"><i class="fa-solid fa-angle-right"></i>News</li>
+                <li class="list-group-item"><i class="fa-solid fa-angle-right"></i>Personalization</li>
+                <li class="list-group-item"><i class="fa-solid fa-angle-right"></i>Photography</li>
+                <li class="list-group-item"><i class="fa-solid fa-angle-right"></i>Productivity</li>
+                <li class="list-group-item"><i class="fa-solid fa-angle-right"></i>Tools</li>
+                <li class="list-group-item"><i class="fa-solid fa-angle-right"></i>Uncategorized</li>                
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-9 col-md-12  col-sm-12">
+            <div class="colum_right">
+            <div class="Last_app">
+            <h2>Latest Apps</h2>
+          </div>
+            <div class="row">
+              <div class="col-lg-3 col-md-4">
+                <div class="card card_customize">
+                  <img src="../images/card1.png" class="card-img-top" alt="...">
+                  <div class="card-body p-0">
+                    <div class="card_text">
+                    <div class="icons">
+                      <ul>
+                      <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                      <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                      <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                      <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                      <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                      </ul>
+                    </div>
+                    <p>Photo Mixer</p>
+                    <div class="prize">
+                      <span class="dollar">$ </span>
+                      <span>
+                        10.00
+                      </span>
+                  </div>
+                </div>
+                  <div class="button">
+                    <a href="#"><i class="fa-solid fa-cart-shopping"></i>Add to cart</a>
+
+                  </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 ">
+                <div class="card card_customize">
+                  <img src="../images/card2.png" class="card-img-top" alt="...">
+                  <div class="card-body p-0">
+                    <div class="card_text">
+                    <div class="icons">
+                      <ul>
+                      <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                      <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                      <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                      <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                      <li><a href="#"><i class="fa-solid fa-star-half-stroke"></i></a></li>
+                      </ul>
+                    </div>
+                    <p>Mini Calendar</p>
+                    <div class="prize">
+                      <span class="dollar">$ </span>
+                      <span>
+                        0.00
+                      </span>
+                  </div>
+                </div>
+                  <div class="button">
+                    <a href="#"><i class="fa-solid fa-cart-shopping"></i>Add to cart</a>
+                    
+                  </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3">
+                <div class="card card_customize">
+                  <img src="../images/card3.png" class="card-img-top" alt="...">
+                  <div class="card-body p-0">
+                    <div class="card_text">
+                    <div class="icons">
+                      <ul>
+                      <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                      <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                      <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                      <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                      <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                      </ul>
+                    </div>
+                    <p>CEO Calculator</p>
+                    <div class="prize">
+                      <span class="dollar">$ </span>
+                      <span>
+                        0.00
+                      </span>
+                  </div>
+                </div>
+                  <div class="button">
+                    <a href="#"><i class="fa-solid fa-cart-shopping"></i>Add to cart</a>
+                    
+                  </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3">
+                <div class="card card_customize">
+                  <img src="../images/card4.png" class="card-img-top" alt="...">
+                  <div class="card-body p-0">
+                    <div class="card_s_text">
+                    
+                    <p>Nice Clock</p>
+                    <div class="prize">
+                      <span class="dollar">$ </span>
+                      <span>
+                        0.00
+                      </span>
+                  </div>
+                </div>
+                  <div class="button">
+                    <a href="#"><i class="fa-solid fa-cart-shopping"></i>Add to cart</a>
+                    
+                  </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+    <!-- ====================
+        app store end
+    ======================== -->
+    <section id="recmmends_apps">
+      <div class="container">
+          <div class="tittle">
+              <h2>RECOMMEND APPS</h2>
+          </div>
+          <div class="main">
+            <div class="row ">
+              <div class="col-lg-2">
+                <div class="card">
+                  <img src="../images/research-development-icon.png" alt="">
+                  <div class="card-body p-0">
+                    <div class="text">
+                      <div class="icons">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    
+                    <div class="item-content ">
+                      <h4 class="product-title">
+                       Photo Mixer</h4>
+                      <span class="price">
+                        <span class="woocommerce-Price-amount amount">
+                          <span class="woocommerce-Price-currencySymbol">$</span>
+                          <small>10.00</small> </span>
+                        </span>
+  
+                      
+                    </div>
+                    </div>
+                    <div class="button">
+                      <a class="button " type="button" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false"><i class="fa fa-shopping-cart"></i> &nbsp;Add to cart</a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">View Cart</a></li>
+                      </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2">
+              <div class="card">
+                <img src="../images/target-icon.png" alt="">
+                <div class="card-body p-0">
+                  <div class="text">
+                    <div class="icons">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                  </div>
+                  
+                  <div class="item-content ">
+                    <h4 class="product-title">
+                      Mini Calendar</h4>
+                    <span class="price">
+                      <span class="woocommerce-Price-amount amount">
+                        <span class="woocommerce-Price-currencySymbol">$</span>
+                        <small>10.00</small> </span>
+                      </span>
+  
+                    
+                  </div>
+                  </div>
+                  <div class="button">
+                    <a class="button" type="button" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false"><i class="fa fa-shopping-cart"></i> &nbsp;Add to cart</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">View Cart</a></li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="card">
+              <img src="../images/responsive-design-icon.png" alt="">
+              <div class="card-body p-0">
+                <div class="text">
+                  <div class="icons">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                
+                <div class="item-content ">
+                  <h4 class="product-title">
+                    CEO Calculator</h4>
+                  <span class="price">
+                    <span class="woocommerce-Price-amount amount">
+                      <span class="woocommerce-Price-currencySymbol">$</span>
+                      <small>10.00</small> </span>
+                    </span>
+  
+                  
+                </div>
+                </div>
+                <div class="button">
+                  <a class="button" type="button" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false"><i class="fa fa-shopping-cart"></i> &nbsp;Add to cart</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">View Cart</a></li>
+                  </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-lg-2">
+          <div class="card">
+            <img src="../images/performance-icon.png" alt="">
+            <div class="card-body p-0">
+              <div class="text">
+                <div class="icons">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+              </div>
+              
+              <div class="item-content ">
+                <h4 class="product-title">
+                  Nice Clock</h4>
+                <span class="price">
+                  <span class="woocommerce-Price-amount amount">
+                    <span class="woocommerce-Price-currencySymbol">$</span>
+                    <small>10.00</small> </span>
+                  </span>
+  
+                
+              </div>
+              </div>
+              <div class="button">
+                <a class="button" type="button" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false"><i class="fa fa-shopping-cart"></i> &nbsp;Add to cart</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">View Cart</a></li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-lg-2">
+        <div class="card">
+          <img src="../images/video-marketing-icon.png" alt="">
+          <div class="card-body p-0">
+            <div class="text">
+              <div class="icons">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            
+            <div class="item-content ">
+              <h4 class="product-title">
+                Xstreme Player 2</h4>
+              <span class="price">
+                <span class="woocommerce-Price-amount amount">
+                  <span class="woocommerce-Price-currencySymbol">$</span>
+                  <small>10.00</small> </span>
+                </span>
+  
+              
+            </div>
+            </div>
+            <div class="button">
+              <a class="button" type="button" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false"><i class="fa fa-shopping-cart"></i> &nbsp;Add to cart</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">View Cart</a></li>
+              </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="col-lg-2">
+      <div class="card">
+        <img src="../images/location-icon.png" alt="">
+        <div class="card-body p-0">
+          <div class="text">
+            <div class="icons">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+          </div>
+          
+          <div class="item-content ">
+            <h4 class="product-title">
+              Check-in Queen</h4>
+            <span class="price">
+              <span class="woocommerce-Price-amount amount">
+                <span class="woocommerce-Price-currencySymbol">$</span>
+                <small>10.00</small> </span>
+              </span>
+  
+            
+          </div>
+          </div>
+          <div class="button">
+            <a class="button" type="button" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false"><i class="fa fa-shopping-cart"></i> &nbsp;Add to cart</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">View Cart</a></li>
+            </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-lg-2">
+    <div class="card">
+      <img src="../images/conversion-icon.png" alt="">
+      <div class="card-body p-0">
+        <div class="text">
+          <div class="icons">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+        </div>
+        
+        <div class="item-content ">
+          <h4 class="product-title">
+            Data Saver</h4>
+          <span class="price">
+            <span class="woocommerce-Price-amount amount">
+              <span class="woocommerce-Price-currencySymbol">$</span>
+              <small>10.00</small> </span>
+            </span>
+  
+          
+        </div>
+        </div>
+        <div class="button">
+          <a class="button" type="button" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false"><i class="fa fa-shopping-cart"></i> &nbsp;Add to cart</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">View Cart</a></li>
+          </ul>
+      </div>
+    </div>
+  </div>
+  </div>
+  
+  <div class="col-lg-2">
+    <div class="card">
+      <img src="../images/website-optimization-icon.png" alt="">
+      <div class="card-body p-0">
+        <div class="text">
+          <div class="icons">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+        </div>
+        
+        <div class="item-content ">
+          <h4 class="product-title">
+            Brainy Game</h4>
+          <span class="price">
+            <span class="woocommerce-Price-amount amount">
+              <span class="woocommerce-Price-currencySymbol">$</span>
+              <small>10.00</small> </span>
+            </span>
+  
+          
+        </div>
+        </div>
+        <div class="button">
+          <a class="button" type="button" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false"><i class="fa fa-shopping-cart"></i> &nbsp;Add to cart</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">View Cart</a></li>
+          </ul>
+      </div>
+    </div>
+  </div>
+  </div>
+  
+  <div class="col-lg-2">
+    <div class="card">
+      <img src="../images/tweaks-icon.png" alt="">
+      <div class="card-body p-0">
+        <div class="text">
+          <div class="icons">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+        </div>
+        
+        <div class="item-content ">
+          <h4 class="product-title">
+            Github Plus</h4>
+          <span class="price">
+            <span class="woocommerce-Price-amount amount">
+              <span class="woocommerce-Price-currencySymbol">$</span>
+              <small>10.00</small> </span>
+            </span>
+  
+          
+        </div>
+        </div>
+        <div class="button">
+          <a class="button" type="button" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false"><i class="fa fa-shopping-cart"></i> &nbsp;Add to cart</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">View Cart</a></li>
+          </ul>
+      </div>
+    </div>
+  </div>
+  </div>
+  
+  <div class="col-lg-2">
+    <div class="card">
+      <img src="../images/tea-time-icon-263x263.png" alt="">
+      <div class="card-body p-0">
+        <div class="text">
+          <div class="icons">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+        </div>
+        
+        <div class="item-content ">
+          <h4 class="product-title">
+            Coffee News</h4>
+          <span class="price">
+            <span class="woocommerce-Price-amount amount">
+              <span class="woocommerce-Price-currencySymbol">$</span>
+              <small>10.00</small> </span>
+            </span>
+  
+          
+        </div>
+        </div>
+        <div class="button">
+          <a class="button" type="button" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false"><i class="fa fa-shopping-cart"></i> &nbsp;Add to cart</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">View Cart</a></li>
+          </ul>
+      </div>
+    </div>
+  </div>
+  </div>
+  
+  <div class="col-lg-2">
+    <div class="card">
+      <img src="../images/analytics-icon.png" alt="">
+      <div class="card-body p-0">
+        <div class="text">
+          <div class="icons">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+        </div>
+        
+        <div class="item-content ">
+          <h4 class="product-title">
+            Awesome Analytic</h4>
+          <span class="price">
+            <span class="woocommerce-Price-amount amount">
+              <span class="woocommerce-Price-currencySymbol">$</span>
+              <small>10.00</small> </span>
+            </span>
+  
+          
+        </div>
+        </div>
+        <div class="button">
+          <a class="button" type="button" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false"><i class="fa fa-shopping-cart"></i> &nbsp;Add to cart</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">View Cart</a></li>
+          </ul>
+      </div>
+    </div>
+  </div>
+  </div>
+  
+  <div class="col-lg-2">
+    <div class="card">
+      <img src="../images/network-sharing-icon-263x263.png" alt="">
+      <div class="card-body p-0">
+        <div class="text">
+          <div class="icons">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+        </div>
+        
+        <div class="item-content ">
+          <h4 class="product-title">
+            Holecraft: Pocket..</h4>
+          <span class="price">
+            <span class="woocommerce-Price-amount amount">
+              <span class="woocommerce-Price-currencySymbol">$</span>
+              <small>10.00</small> </span>
+            </span>
+  
+          
+        </div>
+        </div>
+        <div class="button">
+            <a class="button" type="button" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false"><i class="fa fa-shopping-cart"></i> &nbsp;Add to cart</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">View Cart</a></li>
+            </ul>
+        </div>
+    </div>
+  </div>
+  </div>
+  
+  
+  
+          </div>
+        </div> 
+      </div>
+      <div class="wpb_text_column wpb_content_element ">
+        <div class="wpb_wrapper">
+          <p><a class="btn button-button_3 ">
+            <i class="fa fa-paper-plane"></i>&nbsp;&nbsp;Browse All&nbsp;&nbsp;<i class="fa fa-angle-right"></i></a>
+            </p>
+  
+        </div>
+      </div>
+  </section>
+  <section id="staff">
+    <div class="bg_img">
+      <div class="container">
+        <div class="text">
+          <h2> Staff Picks </h2>
+        </div>
+        <div class="row">
+          <div class="main">
+            <div class="col-lg-3">
+              <div class="card">
+                <div class="grid-item-content app-item dark-div">
+                  <div class="app-thumbnail">
+                    <img src="../images/HNCK1474-1300x866-500x500.jpg" class="card-img-top" alt="...">
+                  </div>
+                    <div class="grid-overlay grid-has-icon">
+                      <a class="overlay-top">
+                        <img src="http://demo.leafcolor.com/applay/wp-content/uploads/2014/10/research-development-icon-150x150.png" width="60" height="60" class="grip-app-icon" alt="Photo Mixer">                                        	
+                        <h4>Photo Mixer</h4>
+                          <div class="clearfix">
+  
+                          </div>
+                      </a>
+                      <div class="overlay-bottom">
+                        <div class="text">
+                          <div class="icons">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="star-rating"><span class="price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>10.00</span></span> <div>
+                              
+                          </div>
+                      </div>
+                  </div>
+                  </div>
+                </div>
+                  </div>
+                </div>
+  
+               
+            </div>
+            <div class="col-lg-3">
+              <div class="card">
+                <div class="grid-item-content app-item dark-div">
+                  <div class="app-thumbnail">
+                    <img src="../images/14781942381_4d227a9025_k-500x500.jpg" class="card-img-top" alt="...">
+                    <div class="grid-overlay grid-has-icon">
+                      <a class="overlay-top">
+                        <img src="../images/card1.png" width="60" height="60" class="grip-app-icon" alt="Photo Mixer">                                        
+                          <h4>Mini Calendar</h4>
+                          <div class="clearfix"></div>
+                      </a>
+                      <div class="overlay-bottom">
+                        <div class="text">
+                          <div class="icons">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="star-rating"><span class="price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>10.00</span></span> <div>
+                              
+                          </div>
+                      </div>
+                  </div>
+                  </div>
+                </div>
+                  </div>
+                </div>
+  
+               
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="card">
+                <div class="grid-item-content app-item dark-div">
+                  <div class="app-thumbnail">
+                    <img src="../images/IMG_3212-1300x866-500x500.jpg" class="card-img-top" alt="...">
+                    <div class="grid-overlay grid-has-icon">
+                      <a class="overlay-top">
+                        <img src="../images/card3.png" width="60" height="60" class="grip-app-icon" alt="Photo Mixer">                                        	
+                        <h4>CEO Calculator</h4>
+                          <div class="clearfix"></div>
+                      </a>
+                      <div class="overlay-bottom">
+                        <div class="text">
+                          <div class="icons">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="star-rating"><span class="price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>10.00</span></span> <div>
+                              
+                          </div>
+                      </div>
+                  </div>
+                  </div>
+                </div>
+                  </div>
+                </div>
+  
+               
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="card">
+                <div class="grid-item-content app-item dark-div">
+                  <div class="app-thumbnail">
+                    <img src="../images/IMG_3725-1300x866-500x500.jpg" class="card-img-top" alt="...">
+                    <div class="grid-overlay grid-has-icon">
+                      <a class="overlay-top">
+                        <img src="../images/card2.png" width="60" height="60" class="grip-app-icon" alt="Photo Mixer">                                        	
+                        <h4>Nice Clock</h4>
+                          <div class="clearfix"></div>
+                      </a>
+                      <div class="overlay-bottom">
+                        <div class="text">
+                          <div class="icons">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="star-rating"><span class="price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>10.00</span></span> <div>
+                              
+                          </div>
+                      </div>
+                  </div>
+                  </div>
+                </div>
+                  </div>
+                </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </section>
+  <!-- shop start  -->
+  <div id="shop">
+    <div class="shop_top">
+    </div>
+    <div id="shop_products">
+      <div class="container-fluid p-0">
+        <div class="title">
+          <h3 class="text-center">our apps</h3>
+        </div>
+        <div class="main w-100 d-flex flex-wrap mt-5">
+          <div class="item Firstitem">
+            <div class="img">
+              <img src="../images/product (1).jpg" alt="product" class="w-100">
+            </div>
+            <div class="details">
+              <div class="title">
+                <a href="#">
+                  <img src="../images/research-development-icon-150x150.png" alt="product_logo">
+                  <p>Photo Mixer</p>
+                </a>
+                <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span>
+                <p>$ 10.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="img">
+              <img src="../images/product (2).jpg" alt="product" class="w-100">
+            </div>
+            <div class="details">
+              <div class="title">
+                <a href="#">
+                  <img src="../images/target-icon-150x150.png" alt="product_logo">
+                  <p>Mini Calendar</p>
+                </a>
+                <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span>
+                <p>$ 10.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="img">
+              <img src="../images/product (3).jpg" alt="product" class="w-100">
+            </div>
+            <div class="details">
+              <div class="title">
+                <a href="#">
+                  <img src="../images/responsive-design-icon-150x150.png" alt="product_logo">
+                  <p>CEO Calculator</p>
+                </a>
+                <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span>
+                <p>$ 10.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="img">
+              <img src="../images/product (4).jpg" alt="product" class="w-100">
+            </div>
+            <div class="details">
+              <div class="title">
+                <a href="#">
+                  <img src="../images/performance-icon-150x150.png" alt="product_logo">
+                  <p>Nice Clock</p>
+                </a>
+                <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span>
+                <p>$ 10.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="img">
+              <img src="../images/product (5).jpg" alt="product" class="w-100">
+            </div>
+            <div class="details">
+              <div class="title">
+                <a href="#">
+                  <img src="../images/video-marketing-icon-150x150.png" alt="product_logo">
+                  <p>Xtreme Player 2</p>
+                </a>
+                <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span>
+                <p>$ 10.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="img">
+              <img src="../images/product (6).jpg" alt="product" class="w-100">
+            </div>
+            <div class="details">
+              <div class="title">
+                <a href="#">
+                  <img src="../images/location-icon-150x150.png" alt="product_logo">
+                  <p>Check In Queen</p>
+                </a>
+                <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span>
+                <p>$ 10.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="img">
+              <img src="../images/product (7).jpg" alt="product" class="w-100">
+            </div>
+            <div class="details">
+              <div class="title">
+                <a href="#">
+                  <img src="../images/conversion-icon-150x150.png" alt="product_logo">
+                  <p>Data Server</p>
+                </a>
+                <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span>
+                <p>$ 10.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="img">
+              <img src="../images/product (8).jpg" alt="product" class="w-100">
+            </div>
+            <div class="details">
+              <div class="title">
+                <a href="#">
+                  <img src="../images/website-optimization-icon-150x150.png" alt="product_logo">
+                  <p>Brainy Game</p>
+                </a>
+                <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span>
+                <p>$ 10.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="img">
+              <img src="../images/product (9).jpg" alt="product" class="w-100">
+            </div>
+            <div class="details">
+              <div class="title">
+                <a href="#">
+                  <img src="../images/tweaks-icon-150x150.png" alt="product_logo">
+                  <p>Gitgub Plus</p>
+                </a>
+                <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span>
+                <p>$ 10.00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- shop end  -->
+  
+  
+  <section id="browse">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="../home.html">
+          <img src="../images/logoo.png" alt="">
+        </a>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <p><strong>let's browse our other awesome apps</strong> . Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, <br> luctus nec ullamcorper mattis, pulvinar dapibus leo. </p>
+          </ul>
+          <form class="d-flex" >
+            <button class="btn " type="submit">
+              <i class="fa fa-paper-plane"></i>&nbsp;&nbsp;Browse All&nbsp;&nbsp;<i class="fa fa-angle-right"></i></a></button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </section>
+  
+
+  <!-- footer start  -->
+  <footer id="footer">
+    <div class="container">
+      <div class="main d-flex justify-content-between w-100">
+        <div class="item">
+          <h3>about us</h3>
+          <img src="../images/web-logo-2.png" alt="logo" class="w-100">
+          <p>App Store & Showcase theme. Proin faucibus arcu quis ante. Vestibulum ullamcorper mauris at ligula.</p>
+          <p>AppStore is the best theme for App Landing, App Store site</p>
+          <button>Get it now</button>
+        </div>
+        <div class="item">
+          <h3>latest posts</h3>
+          <div class="news d-flex mb-4">
+            <div class="img">
+              <img src="../images/product (2).jpg" alt="news">
+            </div>
+            <div class="detail ms-2">
+              <a href="#">Android Apps on AppStore</a>
+              <span>December 5, 2022</span>
+            </div>
+          </div>
+          <div class="news d-flex mb-4">
+            <div class="img">
+              <img src="../images/IMG_7460-1300x866-409x258.jpg" alt="news">
+            </div>
+            <div class="detail ms-2">
+              <a href="#">Apps for work</a>
+              <span>December 5, 2022</span>
+            </div>
+          </div>
+          <div class="news d-flex mb-2">
+            <div class="img">
+              <img src="../images/product (5).jpg" alt="news">
+            </div>
+            <div class="detail ms-2">
+              <a href="#">Discover great apps</a>
+              <span>December 5, 2022</span>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <h3>Tags</h3>
+          <div class="tags d-flex flex-wrap">
+            <a href="#">App</a>
+            <a href="#">AppStore</a>
+            <a href="#">Best Game</a>
+            <a href="#">gallery</a>
+            <a href="#">game</a> 
+            <a href="#">google</a> 
+            <a href="#">Love</a> 
+            <a href="#">market</a> 
+            <a href="#">member</a> 
+            <a href="#">mobile</a>        
+            <a href="#">play</a>
+            <a href="#">showcase</a>
+            <a href="#">store</a>
+            <a href="#">theme</a>
+            <a href="#">app</a>
+            <a href="#">top</a>
+            <a href="#">trending</a>
+            <a href="#">video</a>
+            <a href="#">windowphone</a>
+            <a href="#">youtube</a>
+          </div>
+        </div>
+        <div class="item">
+          <h3>gallery</h3>
+          <div class="gallery d-flex flex-wrap">
+            <a href="#"><img src="../images/4728211246_19d212bab1_o-150x150.jpg" alt="gallery"></a>
+            <a href="#"><img src="../images/IMG_5540-1300x866-500x500.jpg" alt="gallery"></a>
+            <a href="#"><img src="../images/IMG_7460-1300x866-409x258.jpg" alt="gallery"></a>
+            <a href="#"><img src="../images/product (1).jpg" alt="gallery"></a>
+            <a href="#"><img src="../images/product (2).jpg" alt="gallery"></a>
+            <a href="#"><img src="../images/product (3).jpg" alt="gallery"></a>
+            <a href="#"><img src="../images/product (4).jpg" alt="gallery"></a>
+            <a href="#"><img src="../images/product (5).jpg" alt="gallery"></a>
+            <a href="#"><img src="../images/product (6).jpg" alt="gallery"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="footer_bottom">
+      <div class="container">
+        <div class="main d-flex justify-content-between">
+          <div class="topButton">
+            <a href="#body"><i class="fa-solid fa-angles-up"></i></a>
+          </div>
+          <div class="item d-flex align-items-center">
+            <p class="m-0">AppStore IAJS - 2203 Theme by Programming HuB &copy;</p>
+          </div>
+          <div class="item icons d-flex justify-content-end align-items-center">
+            <div class="icon"><i class="fa-brands fa-facebook-f"></i></div>
+            <div class="icon"><i class="fa-brands fa-twitter"></i></div>
+            <div class="icon"><i class="fa-brands fa-linkedin-in"></i></div>
+            <div class="icon"><i class="fa-brands fa-github"></i></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer end  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  <script src="../js/jquery-3.6.1.min.js"></script>
+  <script src="../js/home.js"></script>  
+</body>
+</html>

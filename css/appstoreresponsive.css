@@ -1,0 +1,125 @@
+@media (min-width: 320px) and (max-width: 575px) {
+    #top_games .card {
+      width: 20.5rem;
+      height: 11.5rem;
+    }
+    #top_games .card {
+        width: 20.5rem;
+        height: 20.5rem;
+      }
+
+
+}
+@media (min-width: 320px) and (max-width: 575px) {
+    #app_store .colum_inner h2 {
+        font-size: 28px;
+        font-weight: 600;
+        margin-left: 0;
+    }
+    #app_store .colum_inner h2::before {
+        bottom: -10px;
+        left: 0;
+        height: 2px;
+        width: 50px;
+    }
+    #app_store .colum_inner h2::after {
+        left: 0;
+        width: 50px;
+        bottom: -12px;
+    }
+    #app_store .colum_inner ul li {
+        font-size: 14px;
+    }
+    #app_store .colum_inner ul li i {
+        font-size: 14px;
+        padding-right: 10px;
+    }
+    #app_store .Last_app h2 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    #app_store .Last_app h2::before {
+        bottom: -16px;
+        width: 100%;
+    }
+    #app_store .Last_app h2::after {
+        width: 100%;
+    }
+    #app_store .colum_right .card_text {
+        margin-top: 33px;
+        padding-left: 58px;
+    }
+    #app_store .icons a {
+        font-size: 16px;
+        margin-left: -6px;  
+    }
+    #app_store .colum_right p {  
+        font-size: 16px;
+    }
+    #app_store .colum_right .dollar {
+        font-size: 16px;   
+    }
+    #app_store .colum_right  span {  
+        font-size: 16px;
+    }
+    #app_store .colum_right .button {
+        margin-top: 20px;
+    }
+    #app_store .button a {
+        font-size: 16px;
+    }
+    #app_store .colum_right .card_s_text {
+        margin-top: 90px;
+        padding-left: 60px;   
+    }
+    #app_store .section_3 {
+        width: 241%;
+        height: 1430vh;
+    }
+    #app_store .section_3 .main .item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #app_store .section3_h2 h2 {
+        margin: 0;
+        font-size: 30px;
+    }
+    #top_games .text_h1 {
+        font-size: 28px;
+    }
+    #top_games .card {
+        width: 100% !important;
+        height: fit-content;
+    }
+    #browse {
+        background-color: red;
+        padding:0;
+    }
+    #top_games h2::before {
+        display: none;
+    }
+    #top_games h2::after {
+        display: none;
+    }
+    #browse {
+        display: none;
+    }
+    img{
+        width: 100%;
+    }
+}
+@media (min-width: 576px) and (max-width: 778px){
+    #app_store .colum_inner ul {
+       display: flex;
+        width: 33% !important;
+    }
+    #app_store .colum_inner h2 {
+        margin-bottom: 20px !important;   
+    }
+    #app_store .colum_right .card {
+        width: 33%;
+    }
+    #app_store .colum_inner h2::before {
+        width: 0;
+    }
+}
